@@ -13,7 +13,7 @@ from logging import Formatter, FileHandler
 from flask_wtf import Form
 from forms import *
 #----------------------------------------------------------------------------#
-# App Config.
+# App Config. 
 #----------------------------------------------------------------------------#
 
 app = Flask(__name__)
@@ -21,7 +21,7 @@ moment = Moment(app)
 app.config.from_object('config')
 db = SQLAlchemy(app)
 
-# TODO: connect to a local postgresql database
+# TODO : connect to a local postgresql database
 
 #----------------------------------------------------------------------------#
 # Models.
